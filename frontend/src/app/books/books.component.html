@@ -1,0 +1,7 @@
+@for (book of books | async; track book.id) {
+    <div>
+        <h2>{{book.title}}</h2>
+        <h3>{{book.author}}</h3>
+        <p>{{book.id}}</p>
+    </div>
+}
